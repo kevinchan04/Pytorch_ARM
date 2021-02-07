@@ -23,7 +23,7 @@ sudo service dphys-swapfile start
 free -m
 ```
 
-![Install%20PyTorch%20v1%206%20or%20v1%207%20and%20torchvision%20on%20Ra%20083c73b038274875bfe072bd290eed38/Untitled.png](Install%20PyTorch%20v1%206%20or%20v1%207%20and%20torchvision%20on%20Ra%20083c73b038274875bfe072bd290eed38/Untitled.png)
+![dphys_files](pictures/picture3.png)
 
 Uncomment and modify `CONF_MAXSWAP` and `CONF_SWAPSIZE` to `4096` if you are using raspberry pi 3b+ only with 1GB RAM.
 
@@ -109,9 +109,9 @@ nano aten/src/ATen/native/quantized/cpu/qnnpack/src/q8gemm/8x8-dq-aarch64-neon.S
 
 [Can't compile pytorch from source · Issue #34040 · pytorch/pytorch](https://github.com/pytorch/pytorch/issues/34040)
 
-![Install%20PyTorch%20v1%206%20or%20v1%207%20and%20torchvision%20on%20Ra%20083c73b038274875bfe072bd290eed38/Untitled%201.png](Install%20PyTorch%20v1%206%20or%20v1%207%20and%20torchvision%20on%20Ra%20083c73b038274875bfe072bd290eed38/Untitled%201.png)
+![](pictures/picture1.png)
 
-![Install%20PyTorch%20v1%206%20or%20v1%207%20and%20torchvision%20on%20Ra%20083c73b038274875bfe072bd290eed38/Untitled%202.png](Install%20PyTorch%20v1%206%20or%20v1%207%20and%20torchvision%20on%20Ra%20083c73b038274875bfe072bd290eed38/Untitled%202.png)
+![](pictures/picture2.png)
 
 ## start compiling
 
