@@ -1,5 +1,17 @@
 # Install PyTorch v1.6 or v1.7 and torchvision on Raspberry Pi 3b+
 
+*You can download whl files from here and run `pip3 install ` to install the compiled pytorch and torchvision for aarch64* as following commands.
+```bash
+pip3 install numpy pyyaml pillow -y
+
+wget https://github.com/kevinchan04/Pytorch_ARM/releases/download/v1.0/torch-1.6.0a0+b31f58d-cp36-cp36m-linux_aarch64.whl
+pip3 install ./torch-1.6.0a0+b31f58d-cp36-cp36m-linux_aarch64.whl
+
+wget https://github.com/kevinchan04/Pytorch_ARM/releases/download/v1.0/torchvision-0.7.0a0+78ed10c-cp36-cp36m-linux_aarch64.whl
+pip3 install ./torchvision-0.7.0a0+78ed10c-cp36-cp36m-linux_aarch64.whl
+```
+
+
 This is the tutorial to teach you how to compile Pytorch on ARM68v8 (aarch64) CPU that also on Raspberry Pi. My device are
 
 ```
